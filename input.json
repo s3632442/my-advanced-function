@@ -1,14 +1,7 @@
 {
-    "id": "123456",
-    "metrics": {
-        "humans or animals": "animals",
-        "humans or animals": 3,
-        "natural or artificial": "natural",
-        "natural or artificial": 4,
-        "me or them": "them",
-        "me or them": 1,
-        "sustainability or now": "now",
-        "sustainability or now": 2
-    }
+    "approved_bucket": "approved-vehicle-images",
+    "pending_bucket": "pending-vehicle-images",
+    "image_key_approved": "image1.jpg",
+    "image_key_pending": "image2.jpg"
 }
 
