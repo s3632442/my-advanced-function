@@ -1,0 +1,23 @@
+import json
+
+def lambda_handler(event, context):
+    # Extract metrics and ID from the input event
+    metrics = event.get("metrics", {})
+    item_id = event.get("id")
+
+    # Sort the metrics in descending order
+    sorted_metrics = sorted(metrics.items(), key=lambda x: x[1], reverse=True)
+
+    # Create a JSON response
+    response = {
+        "id": item_id,
+        "ordered_categories": [
+            {"category": category, "value": value} for category, value in sorted_metrics
+        ]
+    }
+
+    return {
+        "statusCode": 200,
+        "body": json.dumps(response)
+    }
+

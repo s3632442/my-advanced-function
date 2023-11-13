@@ -1,0 +1,14 @@
+{
+    "id": "123456",
+    "metrics": {
+        "humans or animals": "animals",
+        "humans or animals": 3,
+        "natural or artificial": "natural",
+        "natural or artificial": 4,
+        "me or them": "them",
+        "me or them": 1,
+        "sustainability or now": "now",
+        "sustainability or now": 2
+    }
+}
+

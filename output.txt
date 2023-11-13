@@ -1,0 +1,1 @@
+{"statusCode": 200, "body": "{\"id\": \"123456\", \"ordered_categories\": [{\"category\": \"natural or artificial\", \"value\": 4}, {\"category\": \"humans or animals\", \"value\": 3}, {\"category\": \"sustainability or now\", \"value\": 2}, {\"category\": \"me or them\", \"value\": 1}]}"}

@@ -1,0 +1,11 @@
+{
+    "id": "your_id",
+    "metrics": {
+        "humanitarian": 75,
+        "equality": 90,
+        "ego": 60,
+        "sustainability": 85,
+        "present": 70
+    }
+}
+
